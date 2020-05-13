@@ -1,0 +1,17 @@
+istenenKrediMiktari = 100000
+MusterininHesaptakiParasi = 9500
+minimumOlmasiGerekenParasi = 10000
+
+
+if MusterininHesaptakiParasi>=minimumOlmasiGerekenParasi:
+    print('Ödemeler hesaplandı')
+    print('Bu Müşterimize Kredi verilebilir')
+elif MusterininHesaptakiParasi>=9000:
+    print('Kredi onayı müdüre sorulmalı.')
+else:
+    print('Bizden kredi alabilmek için yeterli bakiyeniz yok.')
+
+
+print('İşlem sonu')
+
+
